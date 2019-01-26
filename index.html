@@ -1,0 +1,94 @@
+<html>
+
+  <head>
+    <link rel="stylesheet" href="phone.css">
+    <title> Address Book </title>
+  </head>
+
+  <body>
+    <div class = "bar" id = "tab_bar">
+      <button class = "tab" id = "Dialer">Dialer</button>
+      <button class = "tab" id = "Contact_List">Contact List</button>
+      <button class = "tab" id = "Add_Contact">Add Contact</button>
+    </div>
+
+  <div class = "content" id = "content">
+    <div class = "tab_screens" id = "Content_Dialer">
+      <h1> Dialer </h1>
+      <form>
+        <label for="name"></label>
+        <input class = "text" id ="dialer_input">
+      </form>
+      <div id = "first_row">
+      <button class = "dial_number" id = "one">1</button>
+      <button class = "dial_number" id = "two">2</button>
+      <button class = "dial_number" id = "three">3</button>
+      </div>
+      <div id = "second_row">
+      <button class = "dial_number" id = "four">4</button>
+      <button class = "dial_number" id = "five">5</button>
+      <button class = "dial_number" id = "six">6</button>
+      </div>
+      <div id = "third_row">
+      <button class = "dial_number" id = "seven">7</button>
+      <button class = "dial_number" id = "eight">8</button>
+      <button class = "dial_number" id = "nine">9</button>
+      </div>
+      <div id = "fourth_row">
+      <button class = "dial_number" id = "asterik">*</button>
+      <button class = "dial_number" id = "zero">0</button>
+      <button class = "dial_number" id = "hashtag">#</button>
+      </div>
+      <div id = "fifth_row">
+      <button class = "dial_buttons" id = "Dial">Dial</button>
+      <button class = "dial_buttons" id = "Clear">Clear</button>
+      </div>
+    </div>
+
+  <div class = "tab_screens" id = "Content_Contact_List">
+    <h1> Contact List </h1>
+    <div id = "contact_row_1">
+    <button class = "contact_name" id = "Emma">Emma Fouts</button>
+    <button class = "contact_name" id = "Michael">Michael Scott</button>
+    <button class = "contact_name" id = "Dwight">Dwight Schrute</button>
+    </div>
+    <div id = "contact_row_2">
+    <button class = "contact_name" id = "Pam">Pam Beasily</button>
+    <button class = "contact_name" id = "Jim">Jim Halpert</button>
+    <button class = "contact_name" id = "Oscar">Oscar Martinez</button>
+    </div>
+    <div id = "contact_row_3">
+    <button class = "contact_name" id = "Toby">Toby Flenderson</button>
+    <button class = "contact_name" id = "Kelly">Kelly Kapore</button>
+    <button class = "contact_name" id = "Creed">Creed Braton</button>
+    </div>
+
+  </div>
+
+  <div class = "tab_screens" id = "Content_Add_Contact">
+      <h1> Add Contact </h1>
+      <form>
+      <h4> Name </h4>
+      <input class = "text" id="name" placeholder="Angela Martin">
+      </form>
+      <form>
+      <h4> Phone Number </h4>
+      <input class = "text" id="number" placeholder="555-555-5555">
+      </form>
+      <form>
+      <h4> Email Address </h4>
+      <input class = "text" id="email" placeholder="kevin_malone@gmail.com">
+      </form>
+      <button class = "contact_button" id = "add_contact">Add Contact</button>
+      <button class = "contact_button" id = "clear">Clear</button>
+
+  </div>
+
+  </div>
+
+
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="phone.js"></script>
+  </body>
+</html>
